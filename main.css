@@ -1,8 +1,52 @@
-body {
-    background-image:
-}
 .col-sm-12 {
-    height: 10rem;
-    background-color: aqua;
-    
+   height:8rem;
+   text-align: center;
+   padding-top: 2rem;  
+   
 }
+.col-sm-8 {
+    height: 20rem;
+}
+
+body  {
+    background-image: linear-gradient(to right, rgba(241, 240, 178, 0.589), rgba(121, 207, 121, 0.534), rgba(26, 143, 163, 0.561));
+}
+#time {
+    font-family: 'Raleway', sans-serif;
+        color: rgb(219, 187, 4);
+        font-weight: 500;
+        font-size: 2.25rem;
+        text-align: center;
+        padding-top: 2rem;
+}
+     
+     
+#dateToday {
+    font-family: 'Alex Brush', cursive;
+    color: rgb(235, 193, 6);
+     font-size: 2rem;
+     text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+      
+.clockFace {
+     background-color: rgb(46, 40, 134);
+     padding: 25px;
+     width: 80%;
+     margin: 0 auto;
+     text-align: center;
+     border: solid 10px rgb(243, 206, 43);
+     border-radius: 50%;
+     box-shadow: rgb(10, 4, 82) 5px 5px 14px;
+}
+
+h1 {
+color: rgb(18, 6, 49);
+font-family: 'Alex Brush', cursive;
+font-size: 6rem;
+}
+
+ h3 {
+    font-family: 'Alex Brush', cursive;
+ }
